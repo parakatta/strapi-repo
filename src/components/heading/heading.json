@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_heading_headings",
+  "info": {
+    "displayName": "Heading"
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "subheadingColor": {
+      "type": "string"
+    }
+  }
+}

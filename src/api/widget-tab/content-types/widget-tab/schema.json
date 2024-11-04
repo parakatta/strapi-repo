@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "widget_tabs",
+  "info": {
+    "singularName": "widget-tab",
+    "pluralName": "widget-tabs",
+    "displayName": "WidgetTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "widgetId": {
+      "type": "integer"
+    },
+    "tabName": {
+      "type": "string"
+    },
+    "tabHeading": {
+      "type": "string"
+    },
+    "tabColor": {
+      "type": "string"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "tabImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tabContent": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_blocks",
+  "info": {
+    "singularName": "pricing-block",
+    "pluralName": "pricing-blocks",
+    "displayName": "PricingBlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "priceType": {
+      "type": "string"
+    },
+    "yearlyAmount": {
+      "type": "string"
+    },
+    "monthlyAmount": {
+      "type": "string"
+    },
+    "pricingItems": {
+      "type": "json"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

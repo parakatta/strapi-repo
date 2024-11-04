@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_linktext_link_texts",
+  "info": {
+    "displayName": "LinkText"
+  },
+  "options": {},
+  "attributes": {
+    "linkName": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "linkColor": {
+      "type": "string"
+    },
+    "linkHover": {
+      "type": "string"
+    }
+  }
+}

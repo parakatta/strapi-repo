@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "integer"
+    },
+    "questions": {
+      "type": "text"
+    },
+    "answers": {
+      "type": "text"
+    },
+    "circleColor": {
+      "type": "string"
+    }
+  }
+}

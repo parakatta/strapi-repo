@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_navbar_items_navbar_items",
+  "info": {
+    "displayName": "NavbarItems"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "json"
+    },
+    "pageName": {
+      "type": "string"
+    },
+    "itemColor": {
+      "type": "string"
+    },
+    "itemHover": {
+      "type": "string"
+    }
+  }
+}

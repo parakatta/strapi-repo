@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_sections",
+  "info": {
+    "singularName": "info-section",
+    "pluralName": "info-sections",
+    "displayName": "InfoSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.heading"
+    },
+    "linkText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "linktext.link-text"
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    },
+    "section": {
+      "type": "string"
+    }
+  }
+}
